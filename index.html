@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Image Triangulation Demo</title>
+  <style>
+    body {
+      background: black;
+      color: #ddd;
+      font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    a:link,
+    a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .fullheight {
+      display: flex;
+      width: 100vw;
+      min-height: 100vh;
+      align-items: stretch;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .fullheight-head,
+    .fullheight-foot {
+      display: block;
+      flex-grow: 0;
+      flex-shrink: 0;
+      padding: 0 1rem;
+    }
+
+    .fullheight-body {
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 0;
+      align-items: center;
+    }
+
+    .container {
+      display: block;
+      margin: auto;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    canvas {
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fullheight">
+    <div class="fullheight-head">
+      <p><a href="http://xoihazard.com">XOIHAZARD.COM</a></p>
+    </div>
+    <div class="fullheight-body">
+    </div>
+    <div class="fullheight-foot" style="text-align: right;">
+      <p><a href="https://github.com/xoihazard/ImageTriangulationDemo">View Source Code at GitHub.</a></p>
+      <p style="font-size: 11px;">Photo by <a href="https://www.flickr.com/photos/cfaobam/7117819557/">Carsten Frenzl - TUT-Ausstellung_FFM_2012_47</a>        / Adapted.</p>
+    </div>
+  </div>
+  <script src="dist/app.js"></script>
+</body>
+
+</html>
