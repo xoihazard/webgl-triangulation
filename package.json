@@ -1,5 +1,5 @@
 {
-  "name": "image-triangulation-demo",
+  "name": "webgl-triangulation",
   "version": "0.0.1",
   "description": "a WebGL demo",
   "main": "dist/app.js",
